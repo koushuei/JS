@@ -4,6 +4,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
  
     res.render('index', { title: 'hello',
+            //↑views內的ejs檔
         name:'Abcde',
         saying:'i want to sleep',
         tag:'<h1>w;elifja;lskew.e,</h1>' });
