@@ -16,5 +16,7 @@ button{
     height:30px;
     font-size: 20px;
     font-family: '微軟正黑體';
-    background-color: rgb(186, 229, 215);
+    background-color: rgb(193, 224, 196);
+    border-style: solid;
+    border-color: rgb(188, 202, 202);
 }

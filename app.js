@@ -7,6 +7,7 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var memberRouter = require('./routes/member');
 var registerRouter = require('./routes/register');
+var loginRouter = require('./routes/login');
 /********************** 
  首頁
  會員註冊/登入
@@ -33,6 +34,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/member', memberRouter);
 app.use('/register', registerRouter);
+app.use('/login', loginRouter);
 /*********************** */
 
 /*********************** */
